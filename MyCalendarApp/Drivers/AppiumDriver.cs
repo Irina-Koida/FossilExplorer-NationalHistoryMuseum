@@ -15,8 +15,8 @@ namespace MyCalendarApp.Drivers
             var driverOptions = new AppiumOptions();
             driverOptions.AddAdditionalCapability(MobileCapabilityType.PlatformName, "Android");
             driverOptions.AddAdditionalCapability(MobileCapabilityType.PlatformVersion, "10.0");
-            driverOptions.AddAdditionalCapability(MobileCapabilityType.DeviceName, "Pixel4");
-            driverOptions.AddAdditionalCapability(MobileCapabilityType.App, "C:\\Users\\Irina Koida\\Downloads\\Fossil-Explorer-2-0-1.apk");
+            driverOptions.AddAdditionalCapability(MobileCapabilityType.DeviceName, "Samsung Galaxy S7");
+            driverOptions.AddAdditionalCapability(MobileCapabilityType.App, "C:\\Users\\Marina\\Downloads\\Fossil-Explorer-2-0-1.apk");
             driverOptions.AddAdditionalCapability(MobileCapabilityType.AutomationName, "Appium");
 
             var appiumService = new AppiumServiceBuilder().WithIPAddress("127.0.0.1")
